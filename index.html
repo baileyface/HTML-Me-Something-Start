@@ -1,8 +1,160 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+
+<head>
+   <title>Medusa's Myspace</title>
+   <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+   <header>
+      <h1 id="mainHeading">Medusa's Official Myspace</h1>
+      <h2>Stone-Cold Stare, Snakes For Hair, Don't Care</h2>
+   </header>
+
+   <main>
+      <div class="profile-container">
+         <div class="left-column">
+            <section class="profile">
+               <h2>The Woman, The Myth, The Legend</h2>
+               <img src="images/medusa_profile_pic.jpg" alt="Medusa's Profile Picture" class="profile-pic">
+               <p>Khaire! The name is Medusssssa, but you probably already knew that. I mean I am a legend after all.
+               </p>
+            </section>
+
+            <section class="'interests">
+               <h2>Interests</h2>
+               <p>Adding to my statue collection, that I have carefully curated, of the world's worst men.</p>
+            </section>
+
+            <section class="details">
+               <h2>Details</h2>
+               <p>Age: Iconic</p>
+               <p>Status: Gorgon</p>
+               <p>Location: Somewhere safe from men</p>
+            </section>
+         </div>
+
+         <div class="right-column">
+            <section class="top-8">
+               <h2>Top 8 Friends (and Bottom 3)</h2>
+               <ul class="friends-list">
+                  <li>
+                     <img src="images/pegasus_profile_pic.jpg" alt="Pegasus">
+                     <p><a href="https://www.theoi.com/Ther/HipposPegasos.html" target="_blank">Pegasus</a></p>
+                  </li>
+                  <li>
+                     <img src="images/chrysaor_profile_pic.jpg" alt="Chrysaor">
+                     <p><a href="https://www.theoi.com/Ther/Khrysaor.html" target="_blank">Chrysaor</a></p>
+                  </li>
+                  <li>
+                     <img src="images/iphicles_profile_pic.jpg" alt="Iphicles">
+                     <p><a href="https://en.wikipedia.org/wiki/Iphicles" target="_blank">Iphicles</a></p>
+                  </li>
+                  <li>
+                     <img src="images/stheno_profile_pic.jpg" alt="Stheno">
+                     <p><a href="https://villains.fandom.com/wiki/Stheno_(mythology)" target="_blank">Stheno</a></p>
+                  </li>
+                  <li>
+                     <img src="images/euryale_profile_pic.jpg" alt="Euryale">
+                     <p><a href="https://villains.fandom.com/wiki/Euryale_(mythology)" target="_blank">Euryale</a></p>
+                  </li>
+                  <li>
+                     <img src="images/perseus_profile_pic.jpg" alt="Perseus">
+                     <p><a href="https://www.theoi.com/Heros/Perseus.html" target="_blank">Perseus</a></p>
+                  </li>
+                  <li>
+                     <img src="images/athena_profile_pic.jpg" alt="Athena">
+                     <p><a href="https://www.theoi.com/Olympios/Athena.html" target="_blank">Athena</a></p>
+                  </li>
+                  <li>
+                     <img src="images/poseidon_profile_pic.jpg" alt="Poseidon">
+                     <p><a href="https://www.theoi.com/Olympios/Poseidon.html" target="_blank">Poseidon</a></p>
+                  </li>
+               </ul>
+            </section>
+
+            <section class="comments">
+               <h2>Friend Comments</h2>
+               <p>Display friend comments here...</p>
+            </section>
+         </div>
+      </div>
+
+      <article class="additional-info">
+         <h2>Some Hisssssstory</h2>
+         <section>
+            <p id="testP" class="funParagraph">I usssssed to be a Blonde Baddie before that pick-me Athena turned me
+               into a Green Gorgon. All because IIIII was assssssaulted. Athena definitely wasn't for the girliessss.
+               Also, I don't always look assss stunning as I do in my profile pic. And it took me a long time to feel
+               comfy in my own ssssskin. Peep how I looked when Athena first turned me below!</p>
+            <img src="images/medusa_scary.jpg" alt="Baby Gorgon Medusa" class="scary-medusa">
+            <p>Oof, jump scare I KNOW! I'm usually portrayed as some hideous monster (and I am I know), but Poseidon and
+               Athena are to blame for that, which makes them even uglier than me! I mean just look at these losers...
+            </p>
+            <img src="images/athena_ugly.jpg" alt="Athena UG" class="loser-pics"><img src="images/poseidon_ugly.jpg" alt="Poseidon UG" class="loser-pics">
+            <p>And as much as these two deserve each other, there's a special place in Hell reserved for Perseus. Beheading me while I was asleep...pffft what a coward. SAY IT TO MY FACE! And just look at him being such a good boy for his bosses while lauding MY head!</p>
+            <img src="images/perseus_ugly.jpg" alt="Perseus UG">
+            <p>But, if there was one positive thing to come out of my death, it's when that WIMP cut my head off, from my neck sprang my children. Pegasus and Chrysaor. Aren't they perfect??</p>
+            <img src="images/pegasus_moms_bio.jpg" alt="Pegasus Perf"class="child-pic"><img src="images/chrysaor_moms_bio.jpg" alt="Chrysaor Perf" class="child-pic">
+            <p>&copy; All rights reserved to Greek Mythology</p>
+         </section>
+
+         <section>
+            <h2>My Favorite Tunes</h2>
+            <p>I love anything with a mean kithara riff. But I also have a soft spot for a love ballad with some
+               ethereal lyre and aulos. What just because I'm the embodiment of feminine rage means I can't like love
+               songs?</p>
+
+            <audio id="audioPlayer" controls>
+               <source id="audioSource" src="music/song1.mp3" type="audio/mpeg">
+               Your browser does not support the audio element.
+            </audio>
+            <div>
+               <button onclick="prevSong()">Previous</button>
+               <button onclick="nextSong()">Next</button>
+            </div>
+         </section>
+      </article>
+   </main>
+
+   <footer>
+      <p>I'm glad you got to SEE me!</p>
+   </footer>
+
+   <script>
+      const songs = [
+         'music/ancient-legend-187639.mp3',
+         'music/ancient-rhythm-119039 (1).mp3',
+         'music/in-horto-207605.mp3'
+      ];
+      
+      let currentSong = 0;
+
+      function loadSong(songIndex) {
+         const audioPlayer = document.getElementById('audioPlayer');
+         const audioSource = document.getElementById('audioSource');
+         audioSource.src = songs[songIndex];
+         audioPlayer.load();
+      }
+
+      document.addEventListener('DOMContentLoaded', (event) => {
+         loadSong(currentSong);
+      })
+
+      function prevSong() {
+         currentSong = (currentSong - 1 + songs.length) % songs.length;
+         loadSong(currentSong);
+         document.getElementById('audioPlayer').play();
+      }
+
+      function nextSong() {
+         currentSong = (currentSong + 1) % songs.length;
+         loadSong(currentSong);
+         document.getElementById('audioPlayer').play();
+      }
+   </script>
+
+</body>
+
 </html>

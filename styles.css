@@ -1,1 +1,147 @@
 /* Write your CSS here! */
+
+/*Element selector for body*/
+body {
+    background-color: #FFE4E1;
+    font-family: Arial, sans-serif;
+    margin: 8px;
+    display: block;
+    color: #333;
+}
+
+/*ID selector for mainHeading*/
+#mainHeading {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/*Class selector for funParagraph*/
+#testP.funParagraph {
+    color: green;
+    font-style: italic;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*Header styling*/
+header {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*Footer styling*/
+footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*Profile container styling*/
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/*Column styling*/
+.left-column, .right-column {
+    background-color: #f0e68c;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+/*Section margin bottom styling*/
+.profile, .interests, .details, .top-8, .comments {
+    margin-bottom: 20px;
+}
+
+/*Section heading styling*/
+.profile h2, .interests h2, .details h2, .top-8 h2, .comments h2 {
+    background-color: #6b8e23;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*Profile picture styling*/
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0;
+}
+
+/*Friends list styling*/
+ul.friends-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*Friends list item styling*/
+ul.friends-list li {
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Friends list item image styling*/
+ul.friends-list li img {
+    max-width: 80px;
+    border-radius: 50%;
+}
+
+/*Additional info styling*/
+.additional-info {
+    background-color: #E6E6FA;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: auto;
+}
+
+
+/*Children picture syling*/
+.child-pic {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+.loser-pics {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+.scary-medusa {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+/*Audio player styling*/
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
